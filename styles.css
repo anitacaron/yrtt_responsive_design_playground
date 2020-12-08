@@ -11,5 +11,52 @@ body {
 
 img {
     max-width: 100%;
+    display: none;
 }
+
+/*.section {
+    background-color: azure;
+    border: 5px solid azure;
+    padding: 5%;
+}*/
+
+.purple-react {
+    background-color: plum;
+    border: 1px solid lightcoral;
+  }
+
+  .blue-react {
+    background-color: lightcyan;
+    border: 1px solid lightcoral;
+  }
+
+.row-background {
+    background-color: burlywood;
+    padding: 1%;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: blanchedalmond;
+    }
+
+    img {
+        display: block;
+    }
+} 
+
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: darkslateblue;
+    }
+} 
+
+@media only screen and (min-width: 1000px) {
+    body {
+        background-color: yellow;
+    }
+} 
+
+
+
 
