@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- GOOD PRACTICE to have any css framework first and then add my own style. 
+       So my style will override class from the framework and not the opposite -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1 class="page-heading">Playground for Responsive Design</h1>
-    <img src="images/grid.png" alt="table col sizes"/>
+    <!-- <img src="" alt="" srcset=""</img> USE OF srcset TO HAVE RESPONSIVE IMAGE. HAVE BETTER PERFORMANCE INSTEAD OF USING MEDIA? BUT HAVE TO BE ACCESSIBLE 
+            BUT ALSO THERE IS IMAGE RESPONSIVE IN BOOTSTRAP class="img-responsive"-->
+    <img src="images/grid.png" alt="table col sizes" />
     <div class="container">
         <div class="row row-background">
             <div class="section section-one col-12 col-md-6 purple-react">

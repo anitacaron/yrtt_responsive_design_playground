@@ -5,20 +5,20 @@
     }
 }  */
 
+/* Utilities */
 body {
     background-color: salmon;
+}
+
+h1 {
+    font-size: 3rem;
+    /*  font-size: calc(1.5em + 1.5vw); */
 }
 
 img {
     max-width: 100%;
     display: none;
 }
-
-/*.section {
-    background-color: azure;
-    border: 5px solid azure;
-    padding: 5%;
-}*/
 
 .purple-react {
     background-color: plum;
